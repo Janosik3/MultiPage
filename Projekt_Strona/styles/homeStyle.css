@@ -1,0 +1,84 @@
+/* Telefon */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f6f6f6;
+    }
+
+    .upper {
+        text-align: center;
+        height: 7vh;
+        padding-top: 15px;
+        line-height: 20px;
+    }
+
+    .upper h1 {
+        font-size: 15px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    body {
+        background-color: #f6f6f6;
+    }
+
+    .upper {
+        text-align: center;
+        height: 10vh;
+        padding-top: 20px;
+        line-height: 15px;
+    }
+
+    .upper h1 {
+        font-size: 20px;
+    }
+}
+
+/* Ekran monitora 1x */
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    body {
+        background-color: #f6f6f6;
+    }
+
+    .upper {
+        text-align: center;
+        height: 10vh;
+        padding-top: 25px;
+        line-height: 20px;
+    }
+
+    .upper h1 {
+        font-size: 25px;
+    }
+}
+
+/* Ekran monitora 2x */
+@media only screen and (min-width: 1500px) {
+    body {
+        background-color: #f6f6f6;
+    }
+
+    .upper {
+        text-align: center;
+        height: 17vh;
+        padding-top: 50px;
+        line-height: 30px;
+    }
+
+    .upper h1 {
+        font-size: 30px;
+    }
+
+    .box {
+        float: left;
+        width: 25vw;
+        display: grid;
+        transition: 0.5s;
+    }
+
+    .box:hover {
+        background-color: #64d9d5;
+        transition: 0.5s;
+    }
+
+}
