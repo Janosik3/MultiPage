@@ -1,87 +1,308 @@
 /* Telefon */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+    article {
+        margin: 5%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+
     .info {
-        width: 50%;
-        background-color: blue;
+        width: 90%;
+        height: 45vh;
+        line-height: 20px;
+        margin-right: 10%;
+    }
+
+    .form {
+        width: 90%;
+        height: 45vh;
+    }
+
+    .form input {
+        margin-bottom: 3vh;
+    }
+
+    .nameInput {
+        width: 97%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .emailInput {
+        width: 97%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .titleInput {
+        width: 100%;
+        clear: both;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+        box-sizing: border-box;
+    }
+
+    .commentInput {
+        width: 100%;
+        border: none;
+        padding: 1.5%;
+        size: 20%;
+        box-sizing: border-box;
+    }
+
+    .submitInput {
+        width: 57%;
+        height: 55px;
+        border: none;
+        background-color: #0eb6b0;
+        color: white;
+        margin-top: 3vh;
+        padding: 2%;
+        clear: both;
+    }
+
+
+    .map img {
+        width: 100%;
+        margin-top: 100px;
+        height: 300px;
     }
 }
 
 /* Tablet */
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1000px) {
+    article {
+        margin: 5%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+
     .info {
-        width: 50%;
-        background-color: blue;
+        width: 90%;
+        height: 45vh;
+        line-height: 20px;
+        margin-right: 10%;
+    }
+
+    .form {
+        width: 90%;
+        height: 45vh;
+    }
+
+    .form input {
+        margin-bottom: 3vh;
+    }
+
+    .nameInput {
+        width: 45%;
+        float: left;
+        margin-right: 4%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .emailInput {
+        width: 45%;
+        float: left;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .titleInput {
+        width: 100%;
+        clear: both;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+        box-sizing: border-box;
+    }
+
+    .commentInput {
+        width: 100%;
+        border: none;
+        padding: 1.5%;
+        size: 20%;
+        box-sizing: border-box;
+    }
+
+    .submitInput {
+        width: 37%;
+        height: 55px;
+        border: none;
+        background-color: #0eb6b0;
+        color: white;
+        margin-top: 3vh;
+        padding: 2%;
+        clear: both;
+    }
+
+
+    .map img {
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
     }
 }
 
 /* Ekran monitora 1x */
-@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
+    article {
+        margin: 5%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+
     .info {
-        width: 50%;
-        background-color: blue;
+        float: left;
+        width: 30%;
+        height: 45vh;
+        line-height: 20px;
+        margin-right: 10%;
+    }
+
+    .form {
+        float: left;
+        width: 40%;
+        height: 45vh;
+    }
+
+    .form input {
+        margin-bottom: 3vh;
+    }
+
+    .nameInput {
+        width: 45%;
+        float: left;
+        margin-right: 4%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .emailInput {
+        width: 45%;
+        float: left;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .titleInput {
+        width: 100%;
+        clear: both;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+        box-sizing: border-box;
+    }
+
+    .commentInput {
+        width: 100%;
+        border: none;
+        padding: 1.5%;
+        size: 20%;
+        box-sizing: border-box;
+    }
+
+    .submitInput {
+        width: 37%;
+        height: 55px;
+        border: none;
+        background-color: #0eb6b0;
+        color: white;
+        margin-top: 3vh;
+        padding: 2%;
+        clear: both;
+    }
+
+
+    .map img {
+        clear: both;
+        width: 100%;
+        margin-top: 100px;
     }
 }
 
 /* Ekran monitora 2x */
-@media only screen and (min-width: 1500px) {
+@media (min-width: 1500px) {
+    article {
+        margin: 5%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+
     .info {
-        width: 25%;
-        height: 45vh;
-        margin-top: 5%;
-        margin-left: 8%;
-        background-color: blue;
         float: left;
+        width: 30%;
+        height: 45vh;
+        line-height: 20px;
+        margin-right: 10%;
     }
 
     .form {
+        float: left;
         width: 40%;
         height: 45vh;
-        margin-top: 5%;
-        margin-left: 10%;
-        background-color: blue;
-        float: left;
     }
 
-    .nameImput {
-        padding: 15px;
-        background-color: #fff;
-        width: 44%;
-        border: none;
-        float: left;
+    .form input {
+        margin-bottom: 3vh;
     }
 
-    .emailImput {
-        padding: 15px;
-        background-color: #fff;
-        width: 44%;
-        border: none;
+    .nameInput {
+        width: 45%;
         float: left;
-        margin-left: 3%;
+        margin-right: 4%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
     }
 
-
-
-
-
-
-    .titleImput {
-        padding: 15px;
-        background-color: #fff;
-        width: 95.6%;
+    .emailInput {
+        width: 45%;
+        float: left;
         border: none;
+        padding: 1.5%;
+        height: 50px;
+    }
+
+    .titleInput {
+        width: 100%;
         clear: both;
-        margin-top: 5%;
+        border: none;
+        padding: 1.5%;
+        height: 50px;
+        box-sizing: border-box;
     }
 
-    /* .commentImput {
-        padding: 10px;
-        background-color: #fff;
-        width: 20%;
+    .commentInput {
+        width: 100%;
         border: none;
-    } */
+        padding: 1.5%;
+        size: 20%;
+        box-sizing: border-box;
+    }
 
-
-    .map {
+    .submitInput {
+        width: 37%;
+        height: 55px;
+        border: none;
+        background-color: #0eb6b0;
+        color: white;
+        margin-top: 3vh;
+        padding: 2%;
         clear: both;
+    }
+
+
+    .map img {
+        clear: both;
+        width: 100%;
+        margin-top: 100px;
     }
 }

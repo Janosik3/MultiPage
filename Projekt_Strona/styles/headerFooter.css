@@ -49,71 +49,48 @@
     }
 
     .footer {
-        height: 15vh;
+        height: 75vh;
         background-color: #141414;
-        font-size: 10px;
+        font-size: 18px;
         color: #fff;
-        padding: 10%;
+        padding-left: 10%;
+        padding-top: 3%;
     }
-
-    #footersDiv {
-        position: relative;
-        top: 50px;
-        width: 90%;
-        margin: 20px auto 20px auto;
-    }
-
 
     #info {
-        float: left;
         width: 50%;
-        font-size: larger;
-        line-height: 15px;
+        line-height: 25px;
     }
 
     #contact {
-        float: left;
         width: 35%;
-        margin-left: 10%;
-        font-size: larger;
-        line-height: 28px;
-    }
-
-    .clear {
-        clear: both;
-    }
-
-    #smallMenu {
-        float: left;
-        width: 60%;
-        margin-left: -40px;
+        line-height: 25px;
     }
 
     #smallMenu ul {
-        float: left;
         list-style-type: none;
         margin-right: 40px;
+        padding: 0%;
     }
 
     #smallMenu ul li {
         color: lightgray;
-        line-height: 15px;
-        font-size: larger;
+        line-height: 25px;
     }
 
     #social {
-        float: left;
-        width: 15%;
+        clear: both;
+        line-height: 25px;
+        width: 30%;
     }
 
     #social ul {
         list-style-type: none;
+        padding: 0%;
     }
 
     #social ul li {
         color: lightgray;
-        line-height: 15px;
-        font-size: larger;
     }
 }
 
@@ -172,13 +149,6 @@
         padding: 5%;
     }
 
-    #footersDiv {
-        position: relative;
-        top: 50px;
-        width: 90%;
-        margin: 20px auto 20px auto;
-        line-height: 150%;
-    }
 
 
     #info {
@@ -289,13 +259,6 @@
         font-size: 15px;
     }
 
-    #footersDiv {
-        position: relative;
-        top: 50px;
-        width: 90%;
-        margin: 20px auto 20px auto;
-        line-height: 150%;
-    }
 
     #info {
         float: left;
@@ -344,8 +307,6 @@
 /* Ekran monitora 2x */
 @media only screen and (min-width: 1500px) {
     body {
-        /* usunac */
-        /* background-color: green; */
         background-color: #f6f6f6;
         margin: auto;
         padding: 0px;
@@ -398,13 +359,6 @@
         background-color: #141414;
         padding-top: 4%;
         padding-left: 15%;
-    }
-
-    #footersDiv {
-        position: relative;
-        top: 50px;
-        width: 90%;
-        margin: 20px auto 20px auto;
     }
 
     #info {
