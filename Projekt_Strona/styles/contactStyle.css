@@ -1,0 +1,87 @@
+/* Telefon */
+@media only screen and (max-width: 600px) {
+    .info {
+        width: 50%;
+        background-color: blue;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .info {
+        width: 50%;
+        background-color: blue;
+    }
+}
+
+/* Ekran monitora 1x */
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    .info {
+        width: 50%;
+        background-color: blue;
+    }
+}
+
+/* Ekran monitora 2x */
+@media only screen and (min-width: 1500px) {
+    .info {
+        width: 25%;
+        height: 45vh;
+        margin-top: 5%;
+        margin-left: 8%;
+        background-color: blue;
+        float: left;
+    }
+
+    .form {
+        width: 40%;
+        height: 45vh;
+        margin-top: 5%;
+        margin-left: 10%;
+        background-color: blue;
+        float: left;
+    }
+
+    .nameImput {
+        padding: 15px;
+        background-color: #fff;
+        width: 44%;
+        border: none;
+        float: left;
+    }
+
+    .emailImput {
+        padding: 15px;
+        background-color: #fff;
+        width: 44%;
+        border: none;
+        float: left;
+        margin-left: 3%;
+    }
+
+
+
+
+
+
+    .titleImput {
+        padding: 15px;
+        background-color: #fff;
+        width: 95.6%;
+        border: none;
+        clear: both;
+        margin-top: 5%;
+    }
+
+    /* .commentImput {
+        padding: 10px;
+        background-color: #fff;
+        width: 20%;
+        border: none;
+    } */
+
+
+    .map {
+        clear: both;
+    }
+}
