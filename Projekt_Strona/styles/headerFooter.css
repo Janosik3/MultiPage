@@ -152,15 +152,17 @@
 
     #info {
         width: 45%;
+        height: 13vh;
         float: left;
     }
-
+    
     #contact {
         width: 45%;
+        height: 13vh;
         float: left;
     }
-
-
+    
+    
     #smallMenu {
         float: left;
         width: 45%;
@@ -361,11 +363,10 @@
         width: 20%;
         line-height: 25px;
     }
-
+    
     #contact {
         float: left;
         width: 20%;
-        margin-left: 10%;
         line-height: 25px;
     }
 
