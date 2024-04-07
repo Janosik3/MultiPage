@@ -1,80 +1,364 @@
 /* Telefon */
-@media only screen and (max-width: 700px) {}
+@media (max-width: 700px) {}
 
 /* Tablet */
-@media only screen and (min-width: 700px) and (max-width: 1000px) {}
-
-/* Ekran monitora 1x */
-@media only screen and (min-width: 1000px) and (max-width: 1500px) {}
-
-/* Ekran monitora 2x */
-@media only screen and (min-width: 1500px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .name {
-        padding-top: 40px;
+        padding-top: 5vh;
+        padding-left: 25vh;
+        padding-right: 25vh;
         height: 30vh;
         width: 100%;
-        background-image: url("https://picsum.photos/2000/400?random=1?grayscale");
+        background-image: url("../img/backgroundAbout.png");
         background-size: cover;
+        background-position: center;
+        color: white;
+        box-sizing: border-box;
     }
 
     .name div {
-        width: 30%;
+        width: 100%;
         box-sizing: border-box;
         margin: auto;
-        padding: 0%;
+        padding-left: 30%;
     }
 
     .stats {
         background-color: #64d9d5;
-        padding-top: 5%;
-        padding-left: 13%;
-        padding-bottom: 5%;
+        width: 100%;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .elements {
+        width: 80%;
+        height: 45vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .value {
+        float: left;
+        width: 40%;
+        height: 10vh;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 8vh;
+        padding-top: 2vh;
+    }
+
+    .value img {
+        height: 5vh;
+        float: left;
+    }
+
+    .value>.information {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .value h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .value p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 20vw;
+    }
+
+    .aboutMe {
+        clear: both;
+        width: 100%;
+        height: 36vh;
+    }
+
+    .aboutMe img {
+        height: 36vh;
+        float: left;
+        width: 40%;
+    }
+
+    .aboutMeText {
+        width: 52%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 36vh;
+        float: left;
+    }
+
+    .aboutMeText img {
+        width: 40%;
+        height: 10vh;
+        margin-left: 0px;
+    }
+
+    .contactSection {
+        background-color: white;
+        height: 34vh;
+        clear: both;
+    }
+
+    .contactSection * {
+        margin-bottom: 4vh;
+    }
+
+    .contactSection div {
+        width: 65%;
+        text-align: center;
+        padding: 5vh 17.5% 0% 17.5%;
+        clear: both;
+    }
+
+    .letsTalk {
+        background-color: #64d9d5;
+        text-decoration: none;
+        color: black;
+        color: white;
+        padding: 20px 40px 20px 40px;
+    }
+
+
+}
+
+/* Ekran monitora 1x */
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .name {
+        padding-top: 5vh;
+        padding-left: 25vh;
+        padding-right: 25vh;
+        height: 30vh;
+        width: 100%;
+        background-image: url("../img/backgroundAbout.png");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .name div {
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        padding-left: 30%;
+    }
+
+    .stats {
+        background-color: #64d9d5;
+        width: 100%;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .elements {
+        width: 80%;
+        height: 45vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .value {
+        float: left;
+        width: 40%;
+        height: 10vh;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 8vh;
+        padding-top: 2vh;
+    }
+
+    .value img {
+        height: 5vh;
+        float: left;
+    }
+
+    .value>.information {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .value h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .value p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 20vw;
+    }
+
+    .aboutMe {
+        clear: both;
+        width: 100%;
+        height: 35vh;
+        background-color: red;
+    }
+
+    .aboutMe img {
+        margin-left: 10%;
+        height: 35vh;
+        float: left;
+        width: 20%;
+    }
+
+    .aboutMeText {
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 40vh;
+        float: left;
+    }
+
+    .aboutMeText img {
+        width: 40%;
+        height: 10vh;
+        margin-left: 0px;
+    }
+
+    .contactSection {
+        background-color: white;
+        height: 34vh;
+        clear: both;
+    }
+
+    .contactSection * {
+        margin-bottom: 4vh;
+    }
+
+    .contactSection div {
+        width: 25%;
+        text-align: center;
+        padding: 5vh 37.5% 0% 37.5%;
+        clear: both;
+    }
+
+    .letsTalk {
+        background-color: #64d9d5;
+        text-decoration: none;
+        color: black;
+        color: white;
+        padding: 20px 40px 20px 40px;
+    }
+}
+
+/* Ekran monitora 2x */
+@media (min-width: 1500px) {
+    .name {
+        padding-top: 5vh;
+        padding-left: 70vh;
+        height: 30vh;
+        width: 100%;
+        background-image: url("../img/backgroundAbout.png");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .name div {
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        padding-left: 30%;
+    }
+
+    .stats {
+        background-color: #64d9d5;
+        padding-bottom: 10vh;
         float: left;
         width: 100%;
         color: white;
         box-sizing: border-box;
     }
 
+    .elements {
+        width: 100%;
+        height: 20vh;
+        margin-right: 10%;
+    }
+
     .value {
         float: left;
-        margin-right: 7%;
-        width: 14%;
+        width: 15%;
+        height: 10vh;
+        margin-left: 8%;
+        margin-top: 8vh;
+        padding-top: 2vh;
     }
 
     .value img {
-        box-sizing: border-box;
-        margin-right: 10%;
-        width:20%;
+        height: 7vh;
         float: left;
+    }
+
+    .value>.information {
+
+        float: left;
+        margin-left: 10px;
     }
 
     .value h2 {
-        float: left;
-        margin-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+
     }
 
     .value p {
-        clear: both;
-        margin: 0px;
-        position: relative;
-        top: -22px;
-        left: 75px;
-        width: 70%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 10vw;
     }
 
     .aboutMe {
         clear: both;
-        background-image: url("../img/iphone15.png");
         width: 100%;
-        height: 500px;
-        background-size: cover;
-        background-position: center;
+        height: 50vh;
     }
 
-    .aboutMe div {
-        width: 35%;
-        margin-right: 20%;
-        margin-top: 5%;
-        float: right;
+    .aboutMe img {
+        margin-left: 10%;
+        float: left;
+        height: 50vh;
+    }
+
+    .aboutMeText {
+        width: 30%;
+        height: 35vh;
+        padding-top: 4vh;
+        margin-left: 15vw;
+        float: left;
+    }
+
+    .aboutMeText img {
+        width: 40%;
+        height: 10vh;
+        margin-left: 0px;
+    }
+
+    .contactSection {
+        background-color: white;
+        height: 34vh;
+        clear: both;
+    }
+
+    .contactSection * {
+        margin-bottom: 4vh;
+    }
+
+    .contactSection div {
+        width: 25%;
+        text-align: center;
+        padding: 5vh 37.5% 0% 37.5%;
+        clear: both;
+    }
+
+    .letsTalk {
+        background-color: #64d9d5;
+        text-decoration: none;
+        color: black;
+        color: white;
+        padding: 20px 40px 20px 40px;
     }
 }

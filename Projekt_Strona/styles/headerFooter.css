@@ -142,41 +142,35 @@
         color: #64d9d5;
     }
 
+
     .footer {
         height: 30vh;
         background-color: #141414;
         color: #fff;
-        padding: 5%;
+        padding: 5vh;
     }
 
-
-
     #info {
-        float: left;
         width: 45%;
+        float: left;
     }
 
     #contact {
-        float: left;
         width: 45%;
-        margin-left: 10%;
+        float: left;
     }
 
-    .clear {
-        clear: both;
-    }
 
     #smallMenu {
-        margin-left: 10%;
         float: left;
         width: 45%;
-        margin-left: -40px;
     }
 
     #smallMenu ul {
-        float: left;
-        padding-right: 45px;
+        padding-left: 0px;
         list-style-type: none;
+        padding-right: 60px;
+        float: left;
     }
 
     #smallMenu ul li {
@@ -188,11 +182,11 @@
     #social {
         float: left;
         width: 45%;
-        margin-left: 70px;
     }
 
     #social ul {
         list-style-type: none;
+        padding: 0px;
     }
 
     #social ul li {
@@ -200,6 +194,7 @@
         color: lightgray;
         line-height: 25px;
     }
+
 }
 
 /* Ekran monitora 1x */
