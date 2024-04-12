@@ -1,12 +1,135 @@
 /* Telefon */
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+    .name {
+        padding-top: 5vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        height: 30vh;
+        width: 100%;
+        background-image: url("../img/backgroundAbout.png");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .name div {
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        padding-left: 30%;
+    }
+
+    .stats {
+        background-color: #64d9d5;
+        width: 100%;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .elements {
+        width: 80%;
+        height: 65vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .value {
+        float: left;
+        width: 70%;
+        height: 10vh;
+        margin-right: 5%;
+        margin-left: 25%;
+        margin-top: 4vh;
+    }
+
+    .value img {
+        height: 5vh;
+        float: left;
+    }
+
+    .value>.information {
+        float: left;
+        margin-left: 10px;
+        width: 70%;
+    }
+
+    .value h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .value p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .aboutMe {
+        clear: both;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .aboutMe .Background {
+        height: 50vh;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .aboutMe .Background img {
+        height: 50vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .aboutMe .Text {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50vh;
+        padding-top: 4vh;
+        padding-left: 15%;
+        float: left;
+    }
+
+    .Text img {
+        width: 80%;
+        height: 20vh;
+        margin-left: 0px;
+    }
+
+    .contactSection {
+        background-color: white;
+        height: 34vh;
+        clear: both;
+    }
+
+    .contactSection * {
+        margin-bottom: 4vh;
+    }
+
+    .contactSection div {
+        width: 65%;
+        text-align: center;
+        padding: 5vh 17.5% 0% 17.5%;
+        clear: both;
+    }
+
+    .letsTalk {
+        background-color: #64d9d5;
+        text-decoration: none;
+        color: black;
+        color: white;
+        padding: 20px 40px 20px 40px;
+    }
+}
 
 /* Tablet */
 @media (min-width: 700px) and (max-width: 1000px) {
     .name {
         padding-top: 5vh;
-        padding-left: 25vh;
-        padding-right: 25vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
         height: 30vh;
         width: 100%;
         background-image: url("../img/backgroundAbout.png");
@@ -71,25 +194,32 @@
     .aboutMe {
         clear: both;
         width: 100%;
-        height: 36vh;
+        height: 50vh;
     }
 
-    .aboutMe img {
-        height: 36vh;
+    .aboutMe .Background {
         float: left;
-        width: 40%;
+        height: 50vh;
+        width: 30%;
+        box-sizing: border-box;
     }
 
-    .aboutMeText {
-        width: 52%;
-        margin-left: 1%;
-        margin-right: 1%;
-        height: 36vh;
+    .aboutMe .Background img {
+        height: 50vh;
+        float: right;
+    }
+
+    .aboutMe .Text {
+        box-sizing: border-box;
+        width: 45%;
+        height: 50vh;
+        padding-top: 4vh;
+        padding-left: 15%;
         float: left;
     }
 
-    .aboutMeText img {
-        width: 40%;
+    .Text img {
+        width: 100%;
         height: 10vh;
         margin-left: 0px;
     }
@@ -192,22 +322,27 @@
     .aboutMe {
         clear: both;
         width: 100%;
-        height: 35vh;
-        background-color: red;
+        height: 50vh;
     }
 
-    .aboutMe img {
-        margin-left: 10%;
-        height: 35vh;
+    .aboutMe .Background {
         float: left;
-        width: 20%;
+        height: 50vh;
+        width: 30%;
+        box-sizing: border-box;
     }
 
-    .aboutMeText {
-        width: 40%;
-        margin-left: 10%;
-        margin-right: 10%;
-        height: 40vh;
+    .aboutMe .Background img {
+        height: 50vh;
+        float: right;
+    }
+
+    .aboutMe .Text {
+        box-sizing: border-box;
+        width: 45%;
+        height: 50vh;
+        padding-top: 4vh;
+        padding-left: 15%;
         float: left;
     }
 
@@ -317,17 +452,24 @@
         height: 50vh;
     }
 
-    .aboutMe img {
-        margin-left: 10%;
+    .aboutMe .Background {
         float: left;
         height: 50vh;
+        width: 30%;
+        box-sizing: border-box;
     }
 
-    .aboutMeText {
-        width: 30%;
-        height: 35vh;
+    .aboutMe .Background img {
+        height: 50vh;
+        float: right;
+    }
+
+    .aboutMe .Text {
+        box-sizing: border-box;
+        width: 45%;
+        height: 50vh;
         padding-top: 4vh;
-        margin-left: 15vw;
+        padding-left: 15%;
         float: left;
     }
 
