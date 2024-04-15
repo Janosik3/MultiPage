@@ -1,4 +1,4 @@
-/* Telefon */
+/* Wielkość pierwsza */
 @media (max-width: 600px) {
     article {
         margin: 5%;
@@ -77,7 +77,7 @@
     }
 }
 
-/* Tablet */
+/* Wielkość druga */
 @media (min-width: 600px) and (max-width: 1000px) {
     article {
         margin: 5%;
@@ -154,7 +154,7 @@
     }
 }
 
-/* Ekran monitora 1x */
+/* Wielkość trzecia */
 @media (min-width: 1000px) and (max-width: 1500px) {
     article {
         margin: 5%;
@@ -233,7 +233,7 @@
     }
 }
 
-/* Ekran monitora 2x */
+/* Wielkość czwarta */
 @media (min-width: 1500px) {
     article {
         margin: 5%;

@@ -1,4 +1,4 @@
-/* Telefon */
+/* Wielkość pierwsza */
 @media (max-width: 700px) {
     .nameSurname {
         padding-top: 5vh;
@@ -111,7 +111,7 @@
     }
 }
 
-/* Tablet */
+/* Wielkość druga */
 @media (min-width: 700px) and (max-width: 1000px) {
     .nameSurname {
         padding-top: 5vh;
@@ -227,7 +227,7 @@
 
 }
 
-/* Ekran monitora 1x */
+/* Wielkość trzecia */
 @media (min-width: 1000px) and (max-width: 1500px) {
     .nameSurname {
         padding-top: 5vh;
@@ -341,7 +341,7 @@
     }
 }
 
-/* Ekran monitora 2x */
+/* Wielkość czwarta */
 @media (min-width: 1500px) {
     .nameSurname {
         padding-top: 5vh;

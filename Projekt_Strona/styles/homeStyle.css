@@ -17,7 +17,8 @@
 
     .box {
         float: left;
-        width: 50%;
+        width: 80%;
+        margin-left:10%;
         transition: 0.5s;
         border: none;
         height: 250px;
