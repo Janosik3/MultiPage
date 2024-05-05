@@ -67,15 +67,21 @@
     }
 
     footer #smallMenu ul {
-        list-style-type: none;
         margin-right: 40px;
         padding: 0%;
+        list-style-type: none;
     }
 
     footer #smallMenu ul li {
         color: lightgray;
         line-height: 25px;
     }
+
+    footer #smallMenu ul li a {
+        color: lightgray;
+        text-decoration: none;
+    }
+
 
     footer #social {
         clear: both;
@@ -178,6 +184,11 @@
         padding-top: 5px;
         color: lightgray;
         line-height: 25px;
+    }
+
+    footer #smallMenu ul li a {
+        color: lightgray;
+        text-decoration: none;
     }
 
     footer #social {
@@ -284,6 +295,11 @@
         line-height: 25px;
     }
 
+    footer #smallMenu ul li a {
+        color: lightgray;
+        text-decoration: none;
+    }
+
     footer #social {
         float: left;
         width: 10%;
@@ -384,6 +400,11 @@
         padding-top: 5px;
         color: lightgray;
         line-height: 25px;
+    }
+
+    footer #smallMenu ul li a {
+        color: lightgray;
+        text-decoration: none;
     }
 
     footer #social {
