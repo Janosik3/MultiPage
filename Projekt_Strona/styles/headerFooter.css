@@ -1,5 +1,5 @@
 /* Wielkość pierwsza */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     body {
         background-color: #f6f6f6;
         margin: auto;
@@ -13,20 +13,20 @@
         height: 10vh;
         width: 100%;
         position: sticky;
-        top:0px;
+        top: 0px;
     }
 
     header #logo {
-        width: 4vh;
+        width: 3vh;
         float: left;
         margin-top: 3vh;
         margin-left: 7vh;
     }
 
     header nav {
-        float: left;
+        float: right;
         margin-top: 20px;
-        margin-left: 20%;
+        margin-right: 5%;
     }
 
     header nav ul li {
@@ -50,7 +50,7 @@
     }
 
     footer {
-        height: 75vh;
+        height: 95vh;
         background-color: #141414;
         font-size: 18px;
         color: #fff;
@@ -103,7 +103,7 @@
 }
 
 /* Wielkość druga */
-@media only screen and (min-width: 700px) and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
     body {
         background-color: #f6f6f6;
         margin: auto;
@@ -126,8 +126,8 @@
     }
 
     header nav {
-        float: left;
-        margin-left: 30%;
+        float: right;
+        margin-right: 10%;
         margin-top: 20px;
     }
 
@@ -152,41 +152,34 @@
 
 
     footer {
-        height: 30vh;
+        height: 100vh;
         background-color: #141414;
+        font-size: 18px;
         color: #fff;
-        padding: 5vh;
+        padding-left: 10%;
+        padding-top: 3%;
     }
 
     footer #info {
-        width: 45%;
-        height: 13vh;
-        float: left;
+        width: 80%;
+        line-height: 35px;
     }
 
     footer #contact {
-        width: 45%;
-        height: 13vh;
-        float: left;
-    }
-
-
-    footer #smallMenu {
-        float: left;
-        width: 45%;
+        width: 80%;
+        line-height: 35px;
     }
 
     footer #smallMenu ul {
-        padding-left: 0px;
+        width: 80%;
+        margin-right: 40px;
+        padding: 0%;
         list-style-type: none;
-        padding-right: 60px;
-        float: left;
     }
 
     footer #smallMenu ul li {
-        padding-top: 5px;
         color: lightgray;
-        line-height: 25px;
+        line-height: 35px;
     }
 
     footer #smallMenu ul li a {
@@ -194,20 +187,20 @@
         text-decoration: none;
     }
 
+
     footer #social {
-        float: left;
-        width: 45%;
+        clear: both;
+        line-height: 35px;
+        width: 80%;
     }
 
     footer #social ul {
         list-style-type: none;
-        padding: 0px;
+        padding: 0%;
     }
 
     footer #social ul li {
-        padding-top: 5px;
         color: lightgray;
-        line-height: 25px;
     }
 
 }
@@ -237,8 +230,8 @@
 
     header nav {
         margin: 1vh;
-        float: left;
-        margin-left: 50%;
+        float: right;
+        margin-right: 5%;
         margin-top: 20px;
     }
 
@@ -344,8 +337,8 @@
 
     header nav {
         margin: 1vh;
-        float: left;
-        margin-left: 60%;
+        float: right;
+        margin-right: 20%;
         margin-top: 20px;
     }
 
